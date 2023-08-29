@@ -1,0 +1,135 @@
+@media all and (max-width: 375px) {
+  .nav_list {
+    display: none;
+    flex-direction: column;
+    width: fit-content;
+  }
+
+  .hero {
+    height: 820px;
+  }
+
+  .hero_bg {
+    height: 530px;
+    object-fit: cover;
+  }
+
+  .hero_start {
+    flex-direction: column-reverse;
+    height: 480px;
+    justify-content: end;
+  }
+
+  .hero_down {
+    bottom: 292px;
+  }
+
+  .hero_end {
+    margin-top: 65px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hero_right {
+    width: 80%;
+  }
+
+  .hero_left {
+    width: 65%;
+  }
+
+  .hero_left button {
+    width: 100%;
+  }
+
+  .about {
+    height: fit-content;
+    padding: 20px 0px;
+    flex-direction: column;
+  }
+
+  .about_left {
+    width: 90%;
+  }
+
+  .about_right {
+    width: 90%;
+  }
+
+  .numbers {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .number_item {
+    flex-direction: column;
+    width: 60%;
+    display: flex;
+  }
+
+  .hidden {
+    display: none !important;
+  }
+
+  .nav_bg {
+    height: 138px;
+    object-fit: contain;
+  }
+
+  .menu {
+    display: block;
+    width: 30px;
+  }
+
+  .tools_end {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .tools_right {
+    width: 90%;
+  }
+
+  .tools_left {
+    width: 65%;
+  }
+
+  .carousel {
+    height: 295px !important;
+  }
+
+  .carousel-item {
+    width: 80% !important;
+    margin-left: 60px;
+    margin-top: 30px;
+  }
+
+  .carousel-control-prev {
+    left: -7px !important;
+  }
+
+  .cust_list {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .map {
+    width: 310px;
+  }
+
+  .h2,
+  h2 {
+    font-size: calc(1.325rem + 0.9vw);
+    color: #1a4d70;
+  }
+
+  img,
+  svg {
+    width: 100px;
+  }
+
+  footer {
+    margin-top: 50px;
+  }
+}
